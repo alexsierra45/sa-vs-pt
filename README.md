@@ -1,4 +1,4 @@
-# sa-vs-pt — Spin Glass Optimization: Simulated Annealing vs Parallel Tempering
+# Spin Glass Optimization: Simulated Annealing vs Parallel Tempering
 
 A metaheuristic optimization project that benchmarks **Simulated Annealing (SA)** and **Parallel Tempering (PT)** for finding the ground state (minimum energy configuration) of a disordered Ising spin-glass system defined on a random 3-regular graph.
 
