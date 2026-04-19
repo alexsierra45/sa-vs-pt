@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python create_notebook.py)",
+      "Bash(python -c \"import spin_glass_solvers as s; import numpy as np; G=s.generar_grafo_regular\\(10,seed=1\\); J,H=s.generar_instancia\\(G,seed=1\\); nb=s.construir_lista_vecinos\\(G\\); sp=np.ones\\(10,dtype=np.int8\\); print\\('E=',s.energia\\(sp,J,H,nb\\)\\); print\\('dE=',s.delta_energia\\(sp,0,J,H,nb\\)\\)\")"
+    ]
+  }
+}
